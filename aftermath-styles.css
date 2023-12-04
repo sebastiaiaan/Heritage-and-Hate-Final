@@ -72,6 +72,7 @@ main {
 }
 img {
 	width: 100%;
+	min-width:25vw;
 }
 p:first-child {
 	margin-top: 0;
@@ -176,4 +177,5 @@ p{
 	margin-bottom:1em;
 	width:29vw;
 	font-size:large;
+	min-width:25vw;
 }
