@@ -77,10 +77,8 @@ img {
 p:first-child {
 	margin-top: 0;
 }
-p:last-child::after {
-	content: ' ■';
-	opacity: 0.2;
-}
+
+
 /* Title Layout */
 h1 span {
 	display: block;
@@ -177,5 +175,6 @@ p{
 	margin-bottom:1em;
 	width:29vw;
 	font-size:large;
-	min-width:25vw;
+	display:flex;
+	justify-content: center;
 }
